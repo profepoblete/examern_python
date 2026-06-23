@@ -4,7 +4,7 @@ def pedir_numero_valido(mensaje):
             numero = int(input(mensaje))
             return numero
         except ValueError:
-            print("Error: debe ingresar un numero")
+            print("Error: debe ingresar un numero entero ")
 
 def pedir_numero_mayor_a_cero(mensaje):
     while True:
